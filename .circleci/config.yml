@@ -11,8 +11,8 @@ jobs:
            git config --global user.email "murtipipo@gmail.com"
            git config --global color.ui false
            git clone https://github.com/akhilnarang/scripts && cd scripts && bash setup/android_build_env.sh && cd ..
-           mkdir predator
-           cd predator
+           mkdir nbm69
+           cd nbm69
            wget https://raw.githubusercontent.com/MASTERGUY/kernel_xiaomi_msm8953/aex10/.circleci/build.sh
            source build.sh
 workflows:
